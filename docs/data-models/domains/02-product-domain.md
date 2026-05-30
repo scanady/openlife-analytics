@@ -401,28 +401,28 @@
 
 ## Entity Summary
 
-| Entity | Type | Description |
-|--------|------|-------------|
-| Product | Master | Core insurance offering |
-| Product Version | Master | Point-in-time product configuration |
-| Product Line | Reference | High-level product grouping |
-| Product Category | Reference | Highest-level classification |
-| Product Type | Reference | Fundamental product structure type |
-| Rider | Master | Optional supplementary benefit |
-| Rider Type | Reference | Rider classification |
-| Product Rider Eligibility | Reference | Product-Rider availability mapping |
-| Product Feature | Reference | Included product characteristic |
-| Product Feature Assignment | Reference | Product-Feature association |
-| Feature Type | Reference | Feature classification |
-| Coverage Option | Reference | Available face amount options |
-| Term Length | Reference | Term duration options |
-| Product State Availability | Reference | State-level product availability |
-| Product Lifecycle Status | Reference | Product lifecycle stage |
-| Rate Table | Reference | Premium rate structure |
-| Rate Table Entry | Reference | Individual rate values |
-| Underwriting Class | Reference | Risk classification tiers |
-| Product Commission Structure | Reference | Sales compensation structure |
-| Product Comparison | Reference | Product differentiation data |
+| Entity | Type | Phase | Description |
+|--------|------|-------|-------------|
+| Product | Master | P1 | Core insurance offering |
+| Product Version | Master | P1 | Point-in-time product configuration |
+| Product Line | Reference | P1 | High-level product grouping |
+| Product Category | Reference | P1 | Highest-level classification |
+| Product Type | Reference | P1 | Fundamental product structure type |
+| Rider | Master | P1 | Optional supplementary benefit |
+| Rider Type | Reference | P1 | Rider classification |
+| Product Rider Eligibility | Reference | P1 | Product-Rider availability mapping |
+| Product Feature | Reference | P2 | Included product characteristic |
+| Product Feature Assignment | Reference | P2 | Product-Feature association |
+| Feature Type | Reference | P2 | Feature classification |
+| Coverage Option | Reference | P1 | Available face amount options |
+| Term Length | Reference | P1 | Term duration options |
+| Product State Availability | Reference | P2 | State-level product availability |
+| Product Lifecycle Status | Reference | P2 | Product lifecycle stage |
+| Rate Table | Reference | P1 | Premium rate structure |
+| Rate Table Entry | Reference | P1 | Individual rate values |
+| Underwriting Class | Reference | P1 | Risk classification tiers |
+| Product Commission Structure | Reference | P2 | Sales compensation structure |
+| Product Comparison | Reference | P4 | Product differentiation data |
 
 **Total Entities: 20**
 

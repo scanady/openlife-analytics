@@ -17,20 +17,79 @@ This document provides a comprehensive cross-reference of entities across all 13
 
 | # | Domain | Entity Count | Primary Focus |
 |---|--------|-------------|---------------|
-| 1 | Party/Customer | 12 | People and organizations |
-| 2 | Product | 12 | Insurance offerings |
-| 3 | Policy | 14 | Policy lifecycle |
-| 4 | Time/Calendar | 10 | Temporal dimensions |
-| 5 | Underwriting | 14 | Risk assessment |
-| 6 | Sales & Distribution | 14 | Customer acquisition |
-| 7 | Premium & Billing | 14 | Financial transactions |
-| 8 | Claims | 14 | Benefit fulfillment |
-| 9 | Fraud Detection | 12 | Risk mitigation |
-| 10 | Geography/Location | 12 | Spatial dimensions |
+| 1 | Party/Customer | 19 | People and organizations |
+| 2 | Product | 20 | Insurance offerings |
+| 3 | Policy | 27 | Policy lifecycle |
+| 4 | Time/Calendar | 21 | Temporal dimensions |
+| 5 | Underwriting | 34 | Risk assessment |
+| 6 | Sales & Distribution | 30 | Customer acquisition |
+| 7 | Premium & Billing | 29 | Financial transactions |
+| 8 | Claims | 30 | Benefit fulfillment |
+| 9 | Fraud Detection | 30 | Risk mitigation |
+| 10 | Geography/Location | 23 | Spatial dimensions |
 | 11 | Financial Performance | 31 | Financial metrics |
 | 12 | Customer Engagement | 31 | Customer experience |
 | 13 | Compliance/Regulatory | 36 | Regulatory adherence |
-| | **TOTAL** | **226** | |
+| | **TOTAL** | **361** | |
+
+---
+
+## Implementation Phase Summary
+
+Entities are prioritized into four implementation phases:
+
+| Phase | Focus | Entity Count | Description |
+|-------|-------|-------------|-------------|
+| **P1** | Foundation | ~65 | Core entities required to operate basic insurance business - parties, products, policies, essential quotes, applications, claims, and payments |
+| **P2** | Operations | ~150 | Essential operational entities for day-to-day business - underwriting details, billing management, service requests, compliance basics, fraud detection basics |
+| **P3** | Optimization | ~100 | Supporting entities for management, analysis, and optimization - financial metrics, customer analytics, advanced fraud, segmentation |
+| **P4** | Advanced | ~46 | Advanced analytics, compliance, and optimization - experience studies, journey mapping, demographic analytics, cross-sell |
+
+### Phase Distribution by Domain
+
+| Domain | P1 | P2 | P3 | P4 |
+|--------|----|----|----|----|
+| Party/Customer | 10 | 5 | 4 | 0 |
+| Product | 14 | 5 | 0 | 1 |
+| Policy | 12 | 14 | 1 | 0 |
+| Time/Calendar | 4 | 14 | 2 | 1 |
+| Underwriting | 12 | 18 | 4 | 0 |
+| Sales & Distribution | 8 | 11 | 8 | 3 |
+| Premium & Billing | 11 | 16 | 2 | 0 |
+| Claims | 10 | 13 | 7 | 0 |
+| Fraud Detection | 0 | 12 | 16 | 2 |
+| Geography/Location | 6 | 8 | 5 | 4 |
+| Financial Performance | 0 | 16 | 11 | 4 |
+| Customer Engagement | 0 | 14 | 12 | 5 |
+| Compliance/Regulatory | 0 | 22 | 14 | 0 |
+
+### Phase Definitions
+
+**Phase 1 (P1) - Foundation**: Minimum viable entities to issue a policy and process a claim
+- Core master data: Party, Customer, Individual, Organization, Beneficiary
+- Product catalog: Product, Product Version, Product Line, Rider, Rate Table
+- Policy core: Policy, Coverage, Status, Owner, Insured, Beneficiary Designation
+- Basic transactions: Quote, Application, Risk Assessment, Underwriting Decision, Claim, Claim Payout, Payment
+
+**Phase 2 (P2) - Operations**: Full operational capability
+- Detailed underwriting: Medical exams, third-party data, requirements
+- Billing operations: Collection, delinquency, auto-pay, refunds
+- Claims processing: Investigation, reserves, documents
+- Customer service: Interactions, service requests, complaints
+- Compliance basics: Licensing, filings, audit trail, sanctions screening
+
+**Phase 3 (P3) - Optimization**: Analytics and management
+- Financial metrics: Profitability, reserves, budgets, expense allocation
+- Customer analytics: Segmentation, surveys, satisfaction scores
+- Fraud detection: Models, scores, patterns, investigations
+- Sales analytics: Attribution, funnel analysis, CAC
+
+**Phase 4 (P4) - Advanced**: Advanced analytics and optimization
+- Experience studies and A/E analysis
+- Customer journey mapping and sentiment analysis
+- Demographic analytics
+- Cross-sell/up-sell optimization
+- Advanced fraud data sharing
 
 ---
 

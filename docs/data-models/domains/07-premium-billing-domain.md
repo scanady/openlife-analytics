@@ -546,37 +546,37 @@
 
 ## Entity Summary
 
-| Entity | Type | Description |
-|--------|------|-------------|
-| Premium Schedule | Master | Policy premium payment schedule |
-| Payment Mode | Reference | Premium payment frequency |
-| Billing Cycle | Reference | Billing period definition |
-| Billing Item | Transactional | Individual charge/credit |
-| Billing Item Type | Reference | Charge type classification |
-| Statement | Transactional | Account summary document |
-| Payment Transaction | Transactional | Premium payment received |
-| Payment Status | Reference | Payment processing state |
-| Payment Method | Master | Payment instrument |
-| Payment Method Type | Reference | Instrument classification |
-| Payment Channel | Reference | Payment receipt channel |
-| Automatic Payment | Master | Auto-pay arrangement |
-| Payment Allocation | Transactional | Payment-to-item application |
-| Payment Return | Transactional | Failed payment record |
-| Return Reason | Reference | Failure reason code |
-| Collection Action | Transactional | Collection activity |
-| Collection Action Type | Reference | Collection method type |
-| Delinquency | Transactional | Overdue payment record |
-| Delinquency Stage | Reference | Delinquency severity |
-| Grace Period Billing | Transactional | Grace period event |
-| Lapse for Non-Payment | Transactional | Lapse event |
-| Reinstatement Payment | Transactional | Reinstatement payment |
-| Refund | Transactional | Premium refund |
-| Refund Reason | Reference | Refund classification |
-| Premium Rate Change | Transactional | Rate change event |
-| Rate Change Reason | Reference | Change reason code |
-| Account Balance | Transactional | Policy account status |
-| Premium Notice | Transactional | Payment due notice |
-| Commission | Transactional | Distribution compensation |
+| Entity | Type | Phase | Description |
+|--------|------|-------|-------------|
+| Premium Schedule | Master | P1 | Policy premium payment schedule |
+| Payment Mode | Reference | P1 | Premium payment frequency |
+| Billing Cycle | Reference | P1 | Billing period definition |
+| Billing Item | Transactional | P1 | Individual charge/credit |
+| Billing Item Type | Reference | P1 | Charge type classification |
+| Statement | Transactional | P2 | Account summary document |
+| Payment Transaction | Transactional | P1 | Premium payment received |
+| Payment Status | Reference | P1 | Payment processing state |
+| Payment Method | Master | P1 | Payment instrument |
+| Payment Method Type | Reference | P1 | Instrument classification |
+| Payment Channel | Reference | P1 | Payment receipt channel |
+| Automatic Payment | Master | P2 | Auto-pay arrangement |
+| Payment Allocation | Transactional | P2 | Payment-to-item application |
+| Payment Return | Transactional | P2 | Failed payment record |
+| Return Reason | Reference | P2 | Failure reason code |
+| Collection Action | Transactional | P2 | Collection activity |
+| Collection Action Type | Reference | P2 | Collection method type |
+| Delinquency | Transactional | P2 | Overdue payment record |
+| Delinquency Stage | Reference | P2 | Delinquency severity |
+| Grace Period Billing | Transactional | P2 | Grace period event |
+| Lapse for Non-Payment | Transactional | P2 | Lapse event |
+| Reinstatement Payment | Transactional | P2 | Reinstatement payment |
+| Refund | Transactional | P2 | Premium refund |
+| Refund Reason | Reference | P2 | Refund classification |
+| Premium Rate Change | Transactional | P3 | Rate change event |
+| Rate Change Reason | Reference | P3 | Change reason code |
+| Account Balance | Transactional | P2 | Policy account status |
+| Premium Notice | Transactional | P2 | Payment due notice |
+| Commission | Transactional | P2 | Distribution compensation |
 
 **Total Entities: 29**
 

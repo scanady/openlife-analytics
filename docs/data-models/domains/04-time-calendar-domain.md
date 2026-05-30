@@ -413,29 +413,29 @@
 
 ## Entity Summary
 
-| Entity | Type | Description |
-|--------|------|-------------|
-| Date Dimension | Dimensional | Primary calendar date reference |
-| Calendar Month | Dimensional | Month-level aggregation |
-| Calendar Quarter | Dimensional | Quarter-level aggregation |
-| Calendar Year | Dimensional | Year-level aggregation |
-| Fiscal Period | Dimensional | Financial reporting period |
-| Fiscal Quarter | Dimensional | Fiscal quarter |
-| Fiscal Year | Dimensional | Fiscal year |
-| Holiday | Reference | Holiday calendar |
-| Holiday Type | Reference | Holiday classification |
-| Week | Dimensional | Weekly aggregation |
-| Reporting Period | Dimensional | Custom reporting periods |
-| Policy Duration Band | Dimensional | Policy age groupings |
-| Age Band | Dimensional | Age range groupings |
-| Age Type | Reference | Age calculation methods |
-| Vintage | Dimensional | Acquisition cohort groupings |
-| Policy Year | Dimensional | Year in policy life |
-| Business Day | Dimensional | Non-holiday weekdays |
-| Time of Day | Dimensional | Intraday time periods |
-| Effective Date Type | Reference | Date type classification |
-| Contestability Period | Dimensional | Claims contest window |
-| Suicide Exclusion Period | Dimensional | Suicide exclusion window |
+| Entity | Type | Phase | Description |
+|--------|------|-------|-------------|
+| Date Dimension | Dimensional | P1 | Primary calendar date reference |
+| Calendar Month | Dimensional | P1 | Month-level aggregation |
+| Calendar Quarter | Dimensional | P1 | Quarter-level aggregation |
+| Calendar Year | Dimensional | P1 | Year-level aggregation |
+| Fiscal Period | Dimensional | P2 | Financial reporting period |
+| Fiscal Quarter | Dimensional | P2 | Fiscal quarter |
+| Fiscal Year | Dimensional | P2 | Fiscal year |
+| Holiday | Reference | P2 | Holiday calendar |
+| Holiday Type | Reference | P2 | Holiday classification |
+| Week | Dimensional | P2 | Weekly aggregation |
+| Reporting Period | Dimensional | P3 | Custom reporting periods |
+| Policy Duration Band | Dimensional | P3 | Policy age groupings |
+| Age Band | Dimensional | P2 | Age range groupings |
+| Age Type | Reference | P2 | Age calculation methods |
+| Vintage | Dimensional | P3 | Acquisition cohort groupings |
+| Policy Year | Dimensional | P2 | Year in policy life |
+| Business Day | Dimensional | P2 | Non-holiday weekdays |
+| Time of Day | Dimensional | P4 | Intraday time periods |
+| Effective Date Type | Reference | P2 | Date type classification |
+| Contestability Period | Dimensional | P2 | Claims contest window |
+| Suicide Exclusion Period | Dimensional | P2 | Suicide exclusion window |
 
 **Total Entities: 21**
 

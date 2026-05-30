@@ -568,38 +568,38 @@
 
 ## Entity Summary
 
-| Entity | Type | Description |
-|--------|------|-------------|
-| Fraud Alert | Transactional | Suspicious activity indicator |
-| Alert Type | Reference | Alert classification |
-| Alert Priority | Reference | Alert urgency level |
-| Alert Status | Reference | Alert processing state |
-| Fraud Rule | Reference | Fraud detection logic |
-| Rule Type | Reference | Rule methodology classification |
-| Rule Category | Reference | Rule lifecycle stage |
-| Fraud Model | Reference | Predictive fraud model |
-| Fraud Score | Transactional | Fraud probability score |
-| Fraud Investigation | Transactional | Fraud inquiry |
-| Investigation Status | Reference | Investigation state |
-| Investigation Activity | Transactional | Investigation task |
-| Activity Type | Reference | Task classification |
-| Investigator | Master | Fraud investigator |
-| Fraud Case | Transactional | Confirmed fraud instance |
-| Fraud Case Status | Reference | Case state |
-| Fraud Perpetrator | Transactional | Fraud actor |
-| Perpetrator Type | Reference | Actor classification |
-| Fraud Type | Reference | Fraud classification |
-| Fraud Pattern | Reference | Fraud modus operandi |
-| Fraud Indicator | Reference | Fraud red flag |
-| Identified Indicator | Transactional | Detected red flag |
-| Watch List | Reference | High-risk list |
-| Watch List Entry | Master | List member |
-| Fraud Loss | Transactional | Financial impact |
-| Loss Type | Reference | Impact classification |
-| Recovery Action | Transactional | Loss recovery effort |
-| Recovery Action Type | Reference | Recovery method |
-| Third-Party Fraud Data | Transactional | External fraud data |
-| Fraud Referral | Transactional | External referral |
+| Entity | Type | Phase | Description |
+|--------|------|-------|-------------|
+| Fraud Alert | Transactional | P2 | Suspicious activity indicator |
+| Alert Type | Reference | P2 | Alert classification |
+| Alert Priority | Reference | P2 | Alert urgency level |
+| Alert Status | Reference | P2 | Alert processing state |
+| Fraud Rule | Reference | P2 | Fraud detection logic |
+| Rule Type | Reference | P3 | Rule methodology classification |
+| Rule Category | Reference | P3 | Rule lifecycle stage |
+| Fraud Model | Reference | P3 | Predictive fraud model |
+| Fraud Score | Transactional | P3 | Fraud probability score |
+| Fraud Investigation | Transactional | P2 | Fraud inquiry |
+| Investigation Status | Reference | P2 | Investigation state |
+| Investigation Activity | Transactional | P3 | Investigation task |
+| Activity Type | Reference | P3 | Task classification |
+| Investigator | Master | P3 | Fraud investigator |
+| Fraud Case | Transactional | P2 | Confirmed fraud instance |
+| Fraud Case Status | Reference | P2 | Case state |
+| Fraud Perpetrator | Transactional | P3 | Fraud actor |
+| Perpetrator Type | Reference | P3 | Actor classification |
+| Fraud Type | Reference | P2 | Fraud classification |
+| Fraud Pattern | Reference | P3 | Fraud modus operandi |
+| Fraud Indicator | Reference | P3 | Fraud red flag |
+| Identified Indicator | Transactional | P3 | Detected red flag |
+| Watch List | Reference | P2 | High-risk list |
+| Watch List Entry | Master | P2 | List member |
+| Fraud Loss | Transactional | P3 | Financial impact |
+| Loss Type | Reference | P3 | Impact classification |
+| Recovery Action | Transactional | P3 | Loss recovery effort |
+| Recovery Action Type | Reference | P3 | Recovery method |
+| Third-Party Fraud Data | Transactional | P4 | External fraud data |
+| Fraud Referral | Transactional | P4 | External referral |
 
 **Total Entities: 30**
 

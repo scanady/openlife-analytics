@@ -557,39 +557,39 @@
 
 ## Entity Summary
 
-| Entity | Type | Description |
-|--------|------|-------------|
-| Policy Reserve | Transactional | Policy-level actuarial liability |
-| Reserve Type | Reference | Reserve classification |
-| Reserve Basis | Reference | Accounting framework |
-| Aggregate Reserve | Transactional | Rolled-up reserve liability |
-| Premium Revenue | Transactional | Premium income |
-| Earned Premium | Transactional | Recognized premium revenue |
-| Written Premium | Transactional | Premium at policy inception |
-| Investment Income | Transactional | Investment earnings |
-| Operating Expense | Transactional | Business operating costs |
-| Expense Type | Reference | Expense classification |
-| Commission Expense | Transactional | Distribution compensation |
-| Acquisition Cost | Transactional | Policy acquisition costs |
-| Deferred Acquisition Cost | Transactional | Capitalized acquisition costs |
-| Benefit Payment | Transactional | Policy benefit outflows |
-| Benefit Type | Reference | Benefit classification |
-| Profitability Metric | Transactional | Performance measure |
-| Profitability Metric Type | Reference | Metric classification |
-| Loss Ratio | Transactional | Claims to premium ratio |
-| Expense Ratio | Transactional | Expenses to premium ratio |
-| Financial Period | Reference | Reporting period |
-| Accounting Basis | Reference | Accounting framework |
-| General Ledger Account | Reference | Chart of accounts entry |
-| GL Account Type | Reference | Account classification |
-| Financial Transaction | Transactional | GL posting |
-| Financial Transaction Type | Reference | Transaction classification |
-| Budget | Master | Financial plan |
-| Budget Line Item | Master | Budget detail |
-| Variance Analysis | Transactional | Actual vs budget |
-| Experience Study | Transactional | Actuarial analysis |
-| Experience Study Type | Reference | Study classification |
-| Actual to Expected | Transactional | Experience ratio |
+| Entity | Type | Phase | Description |
+|--------|------|-------|-------------|
+| Policy Reserve | Transactional | P2 | Policy-level actuarial liability |
+| Reserve Type | Reference | P2 | Reserve classification |
+| Reserve Basis | Reference | P2 | Accounting framework |
+| Aggregate Reserve | Transactional | P3 | Rolled-up reserve liability |
+| Premium Revenue | Transactional | P2 | Premium income |
+| Earned Premium | Transactional | P2 | Recognized premium revenue |
+| Written Premium | Transactional | P2 | Premium at policy inception |
+| Investment Income | Transactional | P3 | Investment earnings |
+| Operating Expense | Transactional | P3 | Business operating costs |
+| Expense Type | Reference | P3 | Expense classification |
+| Commission Expense | Transactional | P2 | Distribution compensation |
+| Acquisition Cost | Transactional | P3 | Policy acquisition costs |
+| Deferred Acquisition Cost | Transactional | P3 | Capitalized acquisition costs |
+| Benefit Payment | Transactional | P2 | Policy benefit outflows |
+| Benefit Type | Reference | P2 | Benefit classification |
+| Profitability Metric | Transactional | P3 | Performance measure |
+| Profitability Metric Type | Reference | P3 | Metric classification |
+| Loss Ratio | Transactional | P3 | Claims to premium ratio |
+| Expense Ratio | Transactional | P3 | Expenses to premium ratio |
+| Financial Period | Reference | P2 | Reporting period |
+| Accounting Basis | Reference | P2 | Accounting framework |
+| General Ledger Account | Reference | P2 | Chart of accounts entry |
+| GL Account Type | Reference | P2 | Account classification |
+| Financial Transaction | Transactional | P2 | GL posting |
+| Financial Transaction Type | Reference | P2 | Transaction classification |
+| Budget | Master | P3 | Financial plan |
+| Budget Line Item | Master | P3 | Budget detail |
+| Variance Analysis | Transactional | P4 | Actual vs budget |
+| Experience Study | Transactional | P4 | Actuarial analysis |
+| Experience Study Type | Reference | P4 | Study classification |
+| Actual to Expected | Transactional | P4 | Experience ratio |
 
 **Total Entities: 31**
 

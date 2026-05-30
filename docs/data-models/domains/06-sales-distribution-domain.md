@@ -553,38 +553,38 @@
 
 ## Entity Summary
 
-| Entity | Type | Description |
-|--------|------|-------------|
-| Quote | Transactional | Premium estimate for prospect |
-| Quote Status | Reference | Quote lifecycle state |
-| Quote Configuration | Transactional | Product options in quote |
-| Lead | Transactional | Potential customer |
-| Lead Source | Reference | Lead origin |
-| Lead Source Category | Reference | Source grouping |
-| Lead Status | Reference | Lead qualification state |
-| Lead Score | Transactional | Lead quality score |
-| Sales Funnel Stage | Reference | Acquisition journey stage |
-| Funnel Progression | Transactional | Stage movement record |
-| Channel | Reference | Distribution/interaction channel |
-| Channel Type | Reference | Channel classification |
-| Campaign | Master | Marketing initiative |
-| Campaign Type | Reference | Campaign classification |
-| Campaign Channel | Transactional | Campaign-channel association |
-| Attribution | Transactional | Conversion credit assignment |
-| Attribution Model | Reference | Attribution methodology |
-| Touchpoint | Transactional | Customer interaction |
-| Touchpoint Type | Reference | Interaction classification |
-| Sale | Transactional | Completed purchase |
-| Sale Type | Reference | New vs. expansion sale |
-| Customer Acquisition Cost | Transactional | Acquisition cost calculation |
-| Partner | Master | External business partner |
-| Partner Type | Reference | Partner classification |
-| Partner Agreement | Master | Partner contract terms |
-| Conversion | Transactional | Funnel milestone event |
-| Conversion Type | Reference | Milestone classification |
-| Cross-Sell Opportunity | Transactional | Expansion sales opportunity |
-| Opportunity Status | Reference | Opportunity state |
-| Referral | Transactional | Customer/partner referral |
+| Entity | Type | Phase | Description |
+|--------|------|-------|-------------|
+| Quote | Transactional | P1 | Premium estimate for prospect |
+| Quote Status | Reference | P1 | Quote lifecycle state |
+| Quote Configuration | Transactional | P1 | Product options in quote |
+| Lead | Transactional | P2 | Potential customer |
+| Lead Source | Reference | P2 | Lead origin |
+| Lead Source Category | Reference | P2 | Source grouping |
+| Lead Status | Reference | P2 | Lead qualification state |
+| Lead Score | Transactional | P3 | Lead quality score |
+| Sales Funnel Stage | Reference | P2 | Acquisition journey stage |
+| Funnel Progression | Transactional | P3 | Stage movement record |
+| Channel | Reference | P1 | Distribution/interaction channel |
+| Channel Type | Reference | P1 | Channel classification |
+| Campaign | Master | P2 | Marketing initiative |
+| Campaign Type | Reference | P2 | Campaign classification |
+| Campaign Channel | Transactional | P2 | Campaign-channel association |
+| Attribution | Transactional | P3 | Conversion credit assignment |
+| Attribution Model | Reference | P3 | Attribution methodology |
+| Touchpoint | Transactional | P3 | Customer interaction |
+| Touchpoint Type | Reference | P3 | Interaction classification |
+| Sale | Transactional | P1 | Completed purchase |
+| Sale Type | Reference | P1 | New vs. expansion sale |
+| Customer Acquisition Cost | Transactional | P3 | Acquisition cost calculation |
+| Partner | Master | P2 | External business partner |
+| Partner Type | Reference | P2 | Partner classification |
+| Partner Agreement | Master | P3 | Partner contract terms |
+| Conversion | Transactional | P2 | Funnel milestone event |
+| Conversion Type | Reference | P2 | Milestone classification |
+| Cross-Sell Opportunity | Transactional | P4 | Expansion sales opportunity |
+| Opportunity Status | Reference | P4 | Opportunity state |
+| Referral | Transactional | P3 | Customer/partner referral |
 
 **Total Entities: 30**
 

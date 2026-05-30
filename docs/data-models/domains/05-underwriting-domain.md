@@ -610,42 +610,42 @@
 
 ## Entity Summary
 
-| Entity | Type | Description |
-|--------|------|-------------|
-| Application | Transactional | Request for insurance coverage |
-| Application Status | Reference | Application workflow state |
-| Application Status History | Transactional | Status change log |
-| Application Type | Reference | Application purpose classification |
-| Application Channel | Reference | Submission channel |
-| Proposed Insured | Transactional | Person to be insured |
-| Risk Assessment | Transactional | Overall risk evaluation |
-| Risk Classification | Reference | Mortality risk category |
-| Risk Factor | Reference | Individual risk characteristic |
-| Risk Factor Category | Reference | Risk factor grouping |
-| Identified Risk Factor | Transactional | Factor found for applicant |
-| Health Questionnaire | Transactional | Health questions and answers |
-| Questionnaire Response | Transactional | Individual question answers |
-| Question Definition | Reference | Question library |
-| Medical Exam | Transactional | Physical examination |
-| Exam Type | Reference | Exam scope classification |
-| Exam Result | Transactional | Individual exam findings |
-| Exam Result Type | Reference | Measurement type definition |
-| Exam Vendor | Reference | Exam service provider |
-| Third-Party Data Request | Transactional | External data request |
-| Third-Party Data Source | Reference | External data provider |
-| Third-Party Data Response | Transactional | External data received |
-| MIB Code | Transactional | MIB findings |
-| Prescription History | Transactional | Medication history |
-| Underwriting Decision | Transactional | Final UW decision |
-| Decision Outcome | Reference | Decision type |
-| Underwriting Exception | Transactional | Guideline deviation |
-| Underwriting Requirement | Transactional | Required evidence |
-| Requirement Type | Reference | Requirement classification |
-| Requirement Status | Reference | Requirement state |
-| Underwriting Guideline | Reference | UW rules and policies |
-| Risk Score | Transactional | Calculated risk score |
-| Score Model | Reference | Scoring algorithm |
-| Accelerated UW Eligibility | Transactional | Simplified UW qualification |
+| Entity | Type | Phase | Description |
+|--------|------|-------|-------------|
+| Application | Transactional | P1 | Request for insurance coverage |
+| Application Status | Reference | P1 | Application workflow state |
+| Application Status History | Transactional | P2 | Status change log |
+| Application Type | Reference | P1 | Application purpose classification |
+| Application Channel | Reference | P1 | Submission channel |
+| Proposed Insured | Transactional | P1 | Person to be insured |
+| Risk Assessment | Transactional | P1 | Overall risk evaluation |
+| Risk Classification | Reference | P1 | Mortality risk category |
+| Risk Factor | Reference | P2 | Individual risk characteristic |
+| Risk Factor Category | Reference | P2 | Risk factor grouping |
+| Identified Risk Factor | Transactional | P2 | Factor found for applicant |
+| Health Questionnaire | Transactional | P1 | Health questions and answers |
+| Questionnaire Response | Transactional | P1 | Individual question answers |
+| Question Definition | Reference | P2 | Question library |
+| Medical Exam | Transactional | P2 | Physical examination |
+| Exam Type | Reference | P2 | Exam scope classification |
+| Exam Result | Transactional | P2 | Individual exam findings |
+| Exam Result Type | Reference | P2 | Measurement type definition |
+| Exam Vendor | Reference | P2 | Exam service provider |
+| Third-Party Data Request | Transactional | P2 | External data request |
+| Third-Party Data Source | Reference | P2 | External data provider |
+| Third-Party Data Response | Transactional | P2 | External data received |
+| MIB Code | Transactional | P2 | MIB findings |
+| Prescription History | Transactional | P2 | Medication history |
+| Underwriting Decision | Transactional | P1 | Final UW decision |
+| Decision Outcome | Reference | P1 | Decision type |
+| Underwriting Exception | Transactional | P3 | Guideline deviation |
+| Underwriting Requirement | Transactional | P2 | Required evidence |
+| Requirement Type | Reference | P2 | Requirement classification |
+| Requirement Status | Reference | P2 | Requirement state |
+| Underwriting Guideline | Reference | P2 | UW rules and policies |
+| Risk Score | Transactional | P3 | Calculated risk score |
+| Score Model | Reference | P3 | Scoring algorithm |
+| Accelerated UW Eligibility | Transactional | P3 | Simplified UW qualification |
 
 **Total Entities: 34**
 

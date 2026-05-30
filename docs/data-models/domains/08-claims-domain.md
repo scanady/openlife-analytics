@@ -543,38 +543,38 @@
 
 ## Entity Summary
 
-| Entity | Type | Description |
-|--------|------|-------------|
-| Claim | Transactional | Benefit request |
-| Claim Type | Reference | Claim classification |
-| Claim Status | Reference | Processing state |
-| Claim Status History | Transactional | Status change log |
-| Claimant | Transactional | Claim filing party |
-| Death Certificate | Transactional | Death documentation |
-| Cause of Death | Reference | Death cause classification |
-| Claim Document | Transactional | Supporting documents |
-| Claim Document Type | Reference | Document classification |
-| Claim Requirement | Transactional | Required information |
-| Claim Investigation | Transactional | Validity inquiry |
-| Investigation Type | Reference | Investigation classification |
-| Investigation Finding | Transactional | Investigation conclusion |
-| Claim Decision | Transactional | Claim determination |
-| Decision Outcome | Reference | Decision classification |
-| Denial Reason | Reference | Denial justification |
-| Claim Payout | Transactional | Benefit payment |
-| Payout Type | Reference | Payment classification |
-| Payout Option | Reference | Settlement option |
-| Beneficiary Verification | Transactional | Identity confirmation |
-| Claim Reserve | Transactional | Liability estimate |
-| Reserve Type | Reference | Reserve classification |
-| Reserve Change | Transactional | Reserve adjustment |
-| Claim Appeal | Transactional | Decision reconsideration |
-| Appeal Status | Reference | Appeal state |
-| Contestability Review | Transactional | Application review |
-| Interpleader | Transactional | Beneficiary dispute filing |
-| Claim Litigation | Transactional | Lawsuit tracking |
-| Surrender Request | Transactional | Cash-out request |
-| Withdrawal Request | Transactional | Partial cash withdrawal |
+| Entity | Type | Phase | Description |
+|--------|------|-------|-------------|
+| Claim | Transactional | P1 | Benefit request |
+| Claim Type | Reference | P1 | Claim classification |
+| Claim Status | Reference | P1 | Processing state |
+| Claim Status History | Transactional | P2 | Status change log |
+| Claimant | Transactional | P1 | Claim filing party |
+| Death Certificate | Transactional | P1 | Death documentation |
+| Cause of Death | Reference | P1 | Death cause classification |
+| Claim Document | Transactional | P2 | Supporting documents |
+| Claim Document Type | Reference | P2 | Document classification |
+| Claim Requirement | Transactional | P2 | Required information |
+| Claim Investigation | Transactional | P2 | Validity inquiry |
+| Investigation Type | Reference | P2 | Investigation classification |
+| Investigation Finding | Transactional | P2 | Investigation conclusion |
+| Claim Decision | Transactional | P1 | Claim determination |
+| Decision Outcome | Reference | P1 | Decision classification |
+| Denial Reason | Reference | P2 | Denial justification |
+| Claim Payout | Transactional | P1 | Benefit payment |
+| Payout Type | Reference | P1 | Payment classification |
+| Payout Option | Reference | P2 | Settlement option |
+| Beneficiary Verification | Transactional | P2 | Identity confirmation |
+| Claim Reserve | Transactional | P2 | Liability estimate |
+| Reserve Type | Reference | P2 | Reserve classification |
+| Reserve Change | Transactional | P3 | Reserve adjustment |
+| Claim Appeal | Transactional | P3 | Decision reconsideration |
+| Appeal Status | Reference | P3 | Appeal state |
+| Contestability Review | Transactional | P2 | Application review |
+| Interpleader | Transactional | P3 | Beneficiary dispute filing |
+| Claim Litigation | Transactional | P3 | Lawsuit tracking |
+| Surrender Request | Transactional | P2 | Cash-out request |
+| Withdrawal Request | Transactional | P3 | Partial cash withdrawal |
 
 **Total Entities: 30**
 

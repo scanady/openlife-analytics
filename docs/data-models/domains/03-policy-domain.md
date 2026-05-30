@@ -511,35 +511,35 @@
 
 ## Entity Summary
 
-| Entity | Type | Description |
-|--------|------|-------------|
-| Policy | Master | Core insurance contract |
-| Coverage | Master | Death benefit protection |
-| Coverage Type | Reference | Coverage classification |
-| Policy Status | Reference | Policy lifecycle state |
-| Policy Status History | Transactional | Status change log |
-| Policy Owner | Master | Policy ownership |
-| Insured | Master | Covered individual |
-| Payor | Master | Premium payment responsibility |
-| Beneficiary Designation | Master | Death benefit recipients |
-| Designation Level | Reference | Beneficiary priority |
-| Policy Rider | Master | Attached rider coverage |
-| Policy Term | Master | Term policy duration |
-| Policy Value | Transactional | Cash value for permanent policies |
-| Policy Loan | Transactional | Loan against cash value |
-| Policy Loan Repayment | Transactional | Loan repayment transactions |
-| Policy Modification | Transactional | Policy change requests |
-| Modification Type | Reference | Change type classification |
-| Endorsement | Transactional | Formal policy amendment |
-| Endorsement Type | Reference | Amendment classification |
-| Policy Anniversary | Dimensional | Annual policy milestone |
-| Grace Period | Transactional | Late payment window |
-| Reinstatement | Transactional | Lapsed policy restoration |
-| Conversion | Transactional | Term to permanent conversion |
-| Surrender | Transactional | Policy cash-out termination |
-| Free Look Period | Transactional | Cancellation window |
-| Policy Document | Transactional | Associated documents |
-| Document Type | Reference | Document classification |
+| Entity | Type | Phase | Description |
+|--------|------|-------|-------------|
+| Policy | Master | P1 | Core insurance contract |
+| Coverage | Master | P1 | Death benefit protection |
+| Coverage Type | Reference | P1 | Coverage classification |
+| Policy Status | Reference | P1 | Policy lifecycle state |
+| Policy Status History | Transactional | P1 | Status change log |
+| Policy Owner | Master | P1 | Policy ownership |
+| Insured | Master | P1 | Covered individual |
+| Payor | Master | P1 | Premium payment responsibility |
+| Beneficiary Designation | Master | P1 | Death benefit recipients |
+| Designation Level | Reference | P1 | Beneficiary priority |
+| Policy Rider | Master | P1 | Attached rider coverage |
+| Policy Term | Master | P1 | Term policy duration |
+| Policy Value | Transactional | P2 | Cash value for permanent policies |
+| Policy Loan | Transactional | P2 | Loan against cash value |
+| Policy Loan Repayment | Transactional | P2 | Loan repayment transactions |
+| Policy Modification | Transactional | P2 | Policy change requests |
+| Modification Type | Reference | P2 | Change type classification |
+| Endorsement | Transactional | P2 | Formal policy amendment |
+| Endorsement Type | Reference | P2 | Amendment classification |
+| Policy Anniversary | Dimensional | P2 | Annual policy milestone |
+| Grace Period | Transactional | P2 | Late payment window |
+| Reinstatement | Transactional | P2 | Lapsed policy restoration |
+| Conversion | Transactional | P3 | Term to permanent conversion |
+| Surrender | Transactional | P2 | Policy cash-out termination |
+| Free Look Period | Transactional | P2 | Cancellation window |
+| Policy Document | Transactional | P2 | Associated documents |
+| Document Type | Reference | P2 | Document classification |
 
 **Total Entities: 27**
 

@@ -653,44 +653,44 @@
 
 ## Entity Summary
 
-| Entity | Type | Description |
-|--------|------|-------------|
-| Regulatory Filing | Transactional | Regulatory submission |
-| Filing Type | Reference | Filing classification |
-| Filing Status | Reference | Filing state |
-| Regulatory Authority | Reference | Government regulator |
-| Regulatory Requirement | Reference | Compliance obligation |
-| Compliance Status | Transactional | Compliance posture |
-| Compliance Assessment | Transactional | Compliance evaluation |
-| Compliance Finding | Transactional | Issue identified |
-| Remediation Action | Transactional | Corrective action |
-| Regulatory Examination | Transactional | Regulator exam |
-| Examination Type | Reference | Exam classification |
-| Examination Finding | Transactional | Exam issue |
-| Producer License | Master | Agent authorization |
-| License Type | Reference | License classification |
-| License Status | Reference | License state |
-| License Appointment | Master | Producer-company relationship |
-| Company License | Master | Company authorization |
-| Audit Trail | Transactional | Activity log |
-| Audit Action Type | Reference | Action classification |
-| Privacy Consent | Transactional | Data processing consent |
-| Consent Purpose | Reference | Consent classification |
-| Data Subject Request | Transactional | Privacy rights request |
-| DSR Type | Reference | DSR classification |
-| Regulatory Complaint | Transactional | Regulator complaint |
-| Regulatory Complaint Status | Reference | Complaint state |
-| Rate Filing | Transactional | Rate approval submission |
-| Form Filing | Transactional | Form approval submission |
-| Compliance Policy | Reference | Internal policy |
-| Compliance Training | Reference | Required training |
-| Training Completion | Transactional | Training record |
-| Sanctions Screening | Transactional | OFAC/sanctions check |
-| Sanctions List | Reference | Sanctions source |
-| AML Case | Transactional | Money laundering investigation |
-| Suspicious Activity Report | Transactional | SAR filing |
-| Compliance Calendar | Reference | Deadline schedule |
-| Compliance Calendar Event | Transactional | Specific deadline |
+| Entity | Type | Phase | Description |
+|--------|------|-------|-------------|
+| Regulatory Filing | Transactional | P2 | Regulatory submission |
+| Filing Type | Reference | P2 | Filing classification |
+| Filing Status | Reference | P2 | Filing state |
+| Regulatory Authority | Reference | P2 | Government regulator |
+| Regulatory Requirement | Reference | P2 | Compliance obligation |
+| Compliance Status | Transactional | P3 | Compliance posture |
+| Compliance Assessment | Transactional | P3 | Compliance evaluation |
+| Compliance Finding | Transactional | P3 | Issue identified |
+| Remediation Action | Transactional | P3 | Corrective action |
+| Regulatory Examination | Transactional | P3 | Regulator exam |
+| Examination Type | Reference | P3 | Exam classification |
+| Examination Finding | Transactional | P3 | Exam issue |
+| Producer License | Master | P2 | Agent authorization |
+| License Type | Reference | P2 | License classification |
+| License Status | Reference | P2 | License state |
+| License Appointment | Master | P2 | Producer-company relationship |
+| Company License | Master | P2 | Company authorization |
+| Audit Trail | Transactional | P2 | Activity log |
+| Audit Action Type | Reference | P2 | Action classification |
+| Privacy Consent | Transactional | P2 | Data processing consent |
+| Consent Purpose | Reference | P2 | Consent classification |
+| Data Subject Request | Transactional | P3 | Privacy rights request |
+| DSR Type | Reference | P3 | DSR classification |
+| Regulatory Complaint | Transactional | P2 | Regulator complaint |
+| Regulatory Complaint Status | Reference | P2 | Complaint state |
+| Rate Filing | Transactional | P2 | Rate approval submission |
+| Form Filing | Transactional | P2 | Form approval submission |
+| Compliance Policy | Reference | P3 | Internal policy |
+| Compliance Training | Reference | P3 | Required training |
+| Training Completion | Transactional | P3 | Training record |
+| Sanctions Screening | Transactional | P2 | OFAC/sanctions check |
+| Sanctions List | Reference | P2 | Sanctions source |
+| AML Case | Transactional | P3 | Money laundering investigation |
+| Suspicious Activity Report | Transactional | P3 | SAR filing |
+| Compliance Calendar | Reference | P3 | Deadline schedule |
+| Compliance Calendar Event | Transactional | P3 | Specific deadline |
 
 **Total Entities: 36**
 

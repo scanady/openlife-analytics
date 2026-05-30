@@ -446,31 +446,31 @@
 
 ## Entity Summary
 
-| Entity | Type | Description |
-|--------|------|-------------|
-| Geographic Area | Reference | Supertype for all geographic units |
-| Area Type | Reference | Geographic level classification |
-| Country | Reference | Highest-level geography |
-| Region | Reference | Multi-state grouping |
-| State | Reference | Primary regulatory geography |
-| County | Reference | Sub-state administrative unit |
-| City | Reference | Municipality |
-| ZIP Code | Reference | Postal delivery area |
-| ZIP Code Plus4 | Reference | Extended postal code |
-| Postal Address | Master | Standardized street address |
-| Regulatory Jurisdiction | Reference | Regulatory authority area |
-| Licensing Jurisdiction | Reference | Licensing authority area |
-| Sales Territory | Reference | Sales management geography |
-| Territory Assignment | Reference | Territory-area mapping |
-| Market Area | Reference | Strategic market geography |
-| Metropolitan Area | Reference | MSA definition |
-| Rating Territory | Reference | Insurance rating geography |
-| Urban/Rural Classification | Reference | Population density class |
-| State Demographic | Reference | State-level demographics |
-| ZIP Demographic | Reference | ZIP-level demographics |
-| Geocode | Reference | Lat/long coordinates |
-| Time Zone | Reference | Time zone assignment |
-| Distance Band | Reference | Distance classification |
+| Entity | Type | Phase | Description |
+|--------|------|-------|-------------|
+| Geographic Area | Reference | P1 | Supertype for all geographic units |
+| Area Type | Reference | P1 | Geographic level classification |
+| Country | Reference | P1 | Highest-level geography |
+| Region | Reference | P2 | Multi-state grouping |
+| State | Reference | P1 | Primary regulatory geography |
+| County | Reference | P2 | Sub-state administrative unit |
+| City | Reference | P2 | Municipality |
+| ZIP Code | Reference | P1 | Postal delivery area |
+| ZIP Code Plus4 | Reference | P3 | Extended postal code |
+| Postal Address | Master | P1 | Standardized street address |
+| Regulatory Jurisdiction | Reference | P2 | Regulatory authority area |
+| Licensing Jurisdiction | Reference | P2 | Licensing authority area |
+| Sales Territory | Reference | P3 | Sales management geography |
+| Territory Assignment | Reference | P3 | Territory-area mapping |
+| Market Area | Reference | P3 | Strategic market geography |
+| Metropolitan Area | Reference | P3 | MSA definition |
+| Rating Territory | Reference | P4 | Insurance rating geography |
+| Urban/Rural Classification | Reference | P3 | Population density class |
+| State Demographic | Reference | P4 | State-level demographics |
+| ZIP Demographic | Reference | P4 | ZIP-level demographics |
+| Geocode | Reference | P3 | Lat/long coordinates |
+| Time Zone | Reference | P2 | Time zone assignment |
+| Distance Band | Reference | P4 | Distance classification |
 
 **Total Entities: 23**
 
